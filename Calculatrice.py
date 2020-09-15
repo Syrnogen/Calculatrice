@@ -64,7 +64,7 @@ while stop==1:
                 var=input("Veuillez entrer une commande : ")
             #Commande division Euclidienne
             elif var==("Division Euclidienne"):
-                div=int(input("Choisir le dividende : "))
+                div=int(input("Choisir le numérateur : "))
                 den=int(input("Choisir le dénominateur (ce nombre doit être différent de 0) : "))
                 print("Le résultat de cette division est",den//div,"le reste de cette division est",den%div,".")
                 var=input("Veuillez entrer une commande : ")
